@@ -144,11 +144,10 @@ body {
 
 .grid li {
   display: inline-block;
-  width: 440px;
+  width: 25vw;
   margin: 0;
   padding: 20px;
   text-align: left;
-  position: relative;
 }
 
 .grid figure {

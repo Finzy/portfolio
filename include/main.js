@@ -23,3 +23,7 @@ var waypoint = $(".div4").waypoint({
   },
   offset: "30%"
 });
+
+$(document).ready(function() {
+      $('#nav').onePageNav();
+    });

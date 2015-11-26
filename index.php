@@ -19,6 +19,9 @@ switch($p){
     case 'detail4':
         require("include/detail4.html");
         break;
+    case 'detail5':
+        require("include/detail5.html");
+        break;
     default:
         require("include/home.html");
         break;

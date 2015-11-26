@@ -45,6 +45,40 @@ body {
 
 }
 
+#nav {
+  list-style: none;
+  margin: 0;
+  position: fixed;
+  top: 45%;
+  z-index: 9999;
+  width: 30px;
+
+}
+
+#nav li {
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+#nav a {
+  background: #ededed;
+  color: #666;
+  display: block;
+  font-size: 14px;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#nav a:hover {
+  background: #dedede;
+}
+
+#nav .current a {
+  background: #666;
+  color: #ededed;
+}
+
 /*1. Intro*/
 
 
@@ -156,7 +190,7 @@ body {
 }
 
 .grid figure img {
-  max-width: 100%;
+  width: 100%;
   display: block;
   position: relative;
 }
@@ -165,7 +199,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
   background: rgba(138, 40, 40, 1);
   color: #ed4e6e;
 }
@@ -175,7 +210,11 @@ body {
   padding: 0;
   color: #fff;
 }
-
+.grid figcaption h4 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
 .grid figcaption span:before {
   content: 'by ';
 }
@@ -276,7 +315,11 @@ body {
     width: 20%;
     min-width: 300px;
   }
+    #nav {
+    display: none;
+  }
 }
+
 
 @media screen and (max-width: 730px){
   .grid {
@@ -623,6 +666,7 @@ textarea{
     top: 10px;
   }
 }
+
 
 
 

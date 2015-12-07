@@ -412,6 +412,11 @@ body {
   position: relative;
   overflow: hidden;
 }
+.div4 h1{
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 2px 2px 6px #000;
+}
 
 @media (max-width:960px){
   .div4 h1{
@@ -427,6 +432,7 @@ body {
   }
 }
 @media (max-height:600px){
+
   .meter{
     height: 80%;
   }
@@ -565,11 +571,6 @@ aside i{
 
 /*6. contact*/
 
-.div4 h1{
-  text-align: center;
-  font-size: 4em;
-  text-shadow: 2px 2px 6px #000;
-}
 .div5 h1{
   text-align: center;
   font-size: 4em;
@@ -630,7 +631,7 @@ textarea{
     font-size: 3em;
   }
   #about h1{
-    font-size: 3em;
+    font-size: 2em;
   }
   #about p{
     width: 90%;
@@ -647,6 +648,9 @@ textarea{
 @media screen(max-height: 800px), (max-width: 700px){
   .div5 h1{
     font-size: 2em;
+  }
+   #about p{
+    font-size: 1em;
   }
   #conForm{
     margin-top: 0px;
